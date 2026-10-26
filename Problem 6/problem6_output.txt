@@ -1,0 +1,5 @@
+Score difference: 0.4 
+OR = 0.739 (95% CI: 0.546 - 0.988 )
+CASI difference = -0.368 (95% CI: -0.604 - -0.132 )
+Initial probability: 0.4 
+New probability: 0.33 

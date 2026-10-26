@@ -1,0 +1,47 @@
+/mnt/c/Users/종근/IBS7048_2026/test_problem1/IBS7048_2026
+40
+40
+sorted_bash/Treated/R1: 10 files
+sorted_bash/Treated/R2: 10 files
+sorted_bash/Control/R1: 10 files
+sorted_bash/Control/R2: 10 files
+sorted_bash/Control/R1/S01_Control_1_R1.fastq
+sorted_bash/Control/R1/S01_Control_2_R1.fastq
+sorted_bash/Control/R1/S02_Control_1_R1.fastq
+sorted_bash/Control/R1/S02_Control_2_R1.fastq
+sorted_bash/Control/R1/S03_Control_1_R1.fastq
+sorted_bash/Control/R1/S03_Control_2_R1.fastq
+sorted_bash/Control/R1/S04_Control_1_R1.fastq
+sorted_bash/Control/R1/S04_Control_2_R1.fastq
+sorted_bash/Control/R1/S05_Control_1_R1.fastq
+sorted_bash/Control/R1/S05_Control_2_R1.fastq
+sorted_bash/Control/R2/S01_Control_1_R2.fastq
+sorted_bash/Control/R2/S01_Control_2_R2.fastq
+sorted_bash/Control/R2/S02_Control_1_R2.fastq
+sorted_bash/Control/R2/S02_Control_2_R2.fastq
+sorted_bash/Control/R2/S03_Control_1_R2.fastq
+sorted_bash/Control/R2/S03_Control_2_R2.fastq
+sorted_bash/Control/R2/S04_Control_1_R2.fastq
+sorted_bash/Control/R2/S04_Control_2_R2.fastq
+sorted_bash/Control/R2/S05_Control_1_R2.fastq
+sorted_bash/Control/R2/S05_Control_2_R2.fastq
+sorted_bash/Treated/R1/S01_Treated_1_R1.fastq
+sorted_bash/Treated/R1/S01_Treated_2_R1.fastq
+sorted_bash/Treated/R1/S02_Treated_1_R1.fastq
+sorted_bash/Treated/R1/S02_Treated_2_R1.fastq
+sorted_bash/Treated/R1/S03_Treated_1_R1.fastq
+sorted_bash/Treated/R1/S03_Treated_2_R1.fastq
+sorted_bash/Treated/R1/S04_Treated_1_R1.fastq
+sorted_bash/Treated/R1/S04_Treated_2_R1.fastq
+sorted_bash/Treated/R1/S05_Treated_1_R1.fastq
+sorted_bash/Treated/R1/S05_Treated_2_R1.fastq
+sorted_bash/Treated/R2/S01_Treated_1_R2.fastq
+sorted_bash/Treated/R2/S01_Treated_2_R2.fastq
+sorted_bash/Treated/R2/S02_Treated_1_R2.fastq
+sorted_bash/Treated/R2/S02_Treated_2_R2.fastq
+sorted_bash/Treated/R2/S03_Treated_1_R2.fastq
+sorted_bash/Treated/R2/S03_Treated_2_R2.fastq
+sorted_bash/Treated/R2/S04_Treated_1_R2.fastq
+sorted_bash/Treated/R2/S04_Treated_2_R2.fastq
+sorted_bash/Treated/R2/S05_Treated_1_R2.fastq
+sorted_bash/Treated/R2/S05_Treated_2_R2.fastq

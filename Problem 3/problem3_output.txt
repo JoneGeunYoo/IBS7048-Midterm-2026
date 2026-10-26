@@ -1,0 +1,9 @@
+         platform yield_Gb host_fraction cost_USD n_samples
+1        Illumina       18           0.2      150         4
+2 Oxford Nanopore       30           0.7      200         3
+3     PacBio HiFi       12           0.1      300         2
+  microbial_Gb_per_sample total_microbial_Gb
+1                    14.4               57.6
+2                     9.0               27.0
+3                    10.8               21.6
+[1] "Illumina"

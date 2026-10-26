@@ -1,0 +1,168 @@
+Loading required package: Rcpp
+null device 
+          1 
+null device 
+          1 
+               reads.in reads.out
+sam1F.fastq.gz     1500      1063
+sam2F.fastq.gz     1500      1060
+488290 total bases in 2123 reads from 2 samples will be used for learning the error rates.
+339680 total bases in 2123 reads from 2 samples will be used for learning the error rates.
+Warning messages:
+1: In scale_y_log10() : log-10 transformation introduced infinite values.
+2: In scale_y_log10() : log-10 transformation introduced infinite values.
+null device 
+          1 
+Warning messages:
+1: In scale_y_log10() : log-10 transformation introduced infinite values.
+2: In scale_y_log10() : log-10 transformation introduced infinite values.
+null device 
+          1 
+Sample 1 - 1063 reads in 413 unique sequences.
+Sample 2 - 1060 reads in 416 unique sequences.
+Sample 1 - 1063 reads in 440 unique sequences.
+Sample 2 - 1060 reads in 430 unique sequences.
+dada-class: object describing DADA2 denoising results
+10 sequence variants were inferred from 413 input unique sequences.
+Key parameters: OMEGA_A = 1e-40, OMEGA_C = 1e-40, BAND_SIZE = 16
+dada-class: object describing DADA2 denoising results
+8 sequence variants were inferred from 440 input unique sequences.
+Key parameters: OMEGA_A = 1e-40, OMEGA_C = 1e-40, BAND_SIZE = 16
+dada-class: object describing DADA2 denoising results
+11 sequence variants were inferred from 416 input unique sequences.
+Key parameters: OMEGA_A = 1e-40, OMEGA_C = 1e-40, BAND_SIZE = 16
+dada-class: object describing DADA2 denoising results
+8 sequence variants were inferred from 430 input unique sequences.
+Key parameters: OMEGA_A = 1e-40, OMEGA_C = 1e-40, BAND_SIZE = 16
+1046 paired-reads (in 8 unique pairings) successfully merged out of 1059 (in 13 pairings) input.
+959 paired-reads (in 8 unique pairings) successfully merged out of 1055 (in 14 pairings) input.
+                                                                                                                                                                                                                                                       sequence
+1 TACGGAGGATCCGAGCGTTATCCGGATTTATTGGGTTTAAAGGGAGCGTAGGTGGATTGTTAAGTCAGTTGTGAAAGTTTGCGGCTCAACCGTAAAATTGCAGTTGAAACTGGCAGTCTTGAGTACAGTAGAGGTGGGCGGAATTCGTGGTGTAGCGGTGAAATGCTTAGATATCACGAAGAACTCCGATTGCGAAGGCAGCTCACTAGACTGTTACTGACACTGATGCTCGAAAGTGTGGGTATCAAACAGG
+2 TACGGAGGATCCGAGCGTTATCCGGATTTATTGGGTTTAAAGGGAGCGTAGATGGATGTTTAAGTCAGTTGTGAAAGTTTGCGGCTCAACCGTAAAATTGCAGTTGATACTGGATATCTTGAGTGCAGTTGAGGCAGGCGGAATTCGTGGTGTAGCGGTGAAATGCTTAGATATCACGAAGAACTCCGATTGCGAAGGCAGCCTGCTAAGCTGCAACTGACATTGAGGCTCGAAAGTGTGGGTATCAAACAGG
+3 TACGGAGGATCCGAGCGTTATCCGGATTTATTGGGTTTAAAGGGAGCGTAGGTGGATTGTTAAGTCAGTTGTGAAAGTTTGCGGCTCAACCGTAAAATTGCAGTTGAAACTGGCAGTCTTGAGTACAGTAGAGGTGGGCGGAATTCGTGGTGTAGCGGTGAAATGCTTAGATATCACGAAGAACTCCGATTGCGAAGGCAGCTCACTAGACTGCAACTGACACTGATGCTCGAAAGTGTGGGTATCAAACAGG
+4 TACGGAGGATCCGAGCGTTATCCGGATTTATTGGGTTTAAAGGGAGCGTAGATGGATATTTAAGTCAGTTGTGAAAGTTTGCGGCTCAACCGTAAAATTGCAGTTGATACTGGATATCTTGAGTGCAGTTGAGGCAGGCGGAATTCGTGGTGTAGCGGTGAAATGCTTAGATATCACGAAGAACTCCGATTGCGAAGGCAGCCTGCTAAGCTGCAACTGACATTGAGGCTCGAAAGTGTGGGTATCAAACAGG
+5 TACGGAGGATCCGAGCGTTATCCGGATTTATTGGGTTTAAAGGGTGCGTAGGCGGCCTTTTAAGTCAGCGGTGAAAGTCTGTGGCTCAACCATAGAATTGCCGTTGAAACTGGGAGGCTTGAGTATGTTTGAGGCAGGCGGAATGCGTGGTGTAGCGGTGAAATGCTTAGATATCACGCAGAACCCCGATTGCGAAGGCAGCCTGCCAAGCCATGACTGACGCTGATGCACGAAAGCGTGGGGATCAAACAGG
+6 TACGGAGGATCCGAGCGTTATCCGGATTTATTGGGTTTAAAGGGAGCGTAGGCGGACTATTAAGTCAGCTGTGAAAGTTTGCGGCTCAACCGTAAAATTGCAGTTGATACTGGTCGTCTTGAGTGCAGTAGAGGTAGGCGGAATTCGTGGTGTAGCGGTGAAATGCTTAGATATCACGAAGAACTCCGATTGCGAAGGCAGCTTACTGGACTGTAACTGACGCTGATGCTCGAAAGTGTGGGTATCAAACAGG
+  abundance forward reverse nmatch nmismatch nindel prefer accept
+1       397       1       1    137         0      0      1   TRUE
+2       332       2       2    137         0      0      1   TRUE
+3       118       5       3    137         0      0      2   TRUE
+4        58       8       2    137         0      0      2   TRUE
+5        49       6       6    137         0      0      1   TRUE
+6        45       3       4    137         0      0      1   TRUE
+[1] 2 9
+
+252 253 
+  1   8 
+Identified 0 bimeras out of 9 input sequences.
+[1] 2 9
+[1] 0
+[1] 0
+[1] 1
+     input filtered denoisedF denoisedR merged nonchim
+sam1  1500     1063      1061      1061   1046    1046
+sam2  1500     1060      1056      1057    959     959
+      input filtered denoisedF denoisedR merged nonchim
+sam1   1500     1063      1061      1061   1046    1046
+sam2   1500     1060      1056      1057    959     959
+Total  3000     2123      2117      2118   2005    2005
+   ASV Abundance
+1 ASV1       803
+2 ASV2       641
+3 ASV3       213
+4 ASV4       116
+5 ASV5        87
+Loading required package: Biostrings
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: XVector
+Loading required package: GenomeInfoDb
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: RSQLite
+Loading required package: parallel
+Determining distance matrix based on shared 8-mers:
+================================================================================
+
+Time difference of 0 secs
+
+Clustering into groups by similarity:
+================================================================================
+
+Time difference of 0 secs
+
+Aligning Sequences:
+================================================================================
+
+Time difference of 0.02 secs
+
+Iteration 1 of 2:
+
+Determining distance matrix based on alignment:
+================================================================================
+
+Time difference of 0 secs
+
+Reclustering into groups by similarity:
+================================================================================
+
+Time difference of 0 secs
+
+Realigning Sequences:
+================================================================================
+
+Time difference of 0.01 secs
+
+Alignment converged - skipping remaining iteration.
+
+DNAStringSet object of length 5:
+    width seq                                               names               
+[1]   253 TACGGAGGATCCGAGCGTTATCC...CGAAAGTGTGGGTATCAAACAGG ASV1
+[2]   253 TACGGAGGATCCGAGCGTTATCC...CGAAAGTGTGGGTATCAAACAGG ASV2
+[3]   253 TACGGAGGATCCGAGCGTTATCC...CGAAAGTGTGGGTATCAAACAGG ASV3
+[4]   253 TACGGAGGATCCGAGCGTTATCC...CGAAAGTGTGGGTATCAAACAGG ASV4
+[5]   253 TACGGAGGATCCGAGCGTTATCC...CGAAAGTGTGGGTATCAAACAGG ASV5
+Loading required package: ape
+
+Attaching package: ‘ape’
+
+The following object is masked from ‘package:Biostrings’:
+
+    complement
+
+null device 
+          1 

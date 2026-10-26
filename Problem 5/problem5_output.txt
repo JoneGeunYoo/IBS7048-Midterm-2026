@@ -1,0 +1,5 @@
+  condition microbial_reads remaining_reads
+1 Untreated           2e+05          180000
+2   Treated           2e+06          180000
+Microbial reads fold change: 10 
+Remaining reads fold change: 1 
